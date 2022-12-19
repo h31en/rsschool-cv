@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      <div class="container">
+            <div class="left_aside">
+                <div class="left_aside-profil">
+                    <div class="img">
+                        <img src="Snapchat-319472624.jpg" alt="Elena_Grebenchuk"> 
+                    </div>
+                    <h2>Elena Grebenchuk<br><span>JUNIOR FRONT-END DEVELOPER</span></h2>
+                </div>
+                <div class="info">
+                    <ul class="nav-list">
+                        <h3 class="nav-item">Contacts
+                            <li><span>Gomel, Belarus</span></li>
+                            <li><span>email: elena_grebenchuk@mail.ru</span></li>
+                        </h3>
+                        
+                        <h3 class="nav-item">Skills
+                            <li>
+                                <span>
+                                    Web-development: HTML5, CSS3, JavaScript
+                                </span></li>
+                                <li><span>Version control:Git, GitHub</span></li>
+                                <li><span>Graphics: Figma</span></li>
+                            
+                        </h3>
+                        
+                  
+                 
+                        <h3 class="nav-item">projects
+                            <li><span>https://h31en.github.io/figma-ex/</span></li>
+                        </h3>
+                       
+                      </ul>
+
+                </div>
+            </div>
+            <div class="right_aside">
+                <div class="about">
+                   <h2 class="title2">Summary</h2>
+                   <p>
+                    Hi, this is my first page and my first experience in creating a portfolio) I just recently started learning programming and I really like it very much! I plan to develop further.Now I give it all my free time. I'm ready to dive further with my head!</p>
+
+                </div>
+                <div class="about">
+                    <h2 class="title2">Code</h2>
+                    <p>let nNumber = prompt('Enter a number');<br>
+                        let sum = 0; <br>
+                        
+                        if (nNumber === null) {
+                            alert('you are cancelled')
+                        }else {
+                            nNumber = Number(nNumber); <br>
+                        
+                        if (isNaN(nNumber) || nNumber < 1) {
+                            alert('enter a number'); <br>
+                           
+                        }else {
+                            for(let i = 1; i <= nNumber; i++){
+                                sum += i;             
+                            } 
+                            alert(`${sum}`);
+                        }
+                        }</p>
+                        <p> let numberCount = +prompt('enter the number of numbers'); <br>
+                             let positiveNumber = 0; <br>
+                             let negativeNumber = 0; <br>
+                             let zeroNumber = 0; <br>
+                            
+                             for ( let i = 0; i < numberCount; i++) {
+                                 let nNumber = +prompt('Enter'+' ' + numberCount + ' ' + 'different numbers'); <br>
+                                if( nNumber > 0) {
+                                     positiveNumber++;
+                                }else if( nNumber < 0) {
+                                    negativeNumber++ <br>
+                                }else {
+                                     zeroNumber++ <br>
+                                }
+                             }
+                             console.log(`positiveNumber = ${positiveNumber}`)
+                             console.log(`negativeNumber = ${negativeNumber}`)
+                             console.log(`zeroNumber = ${zeroNumber}`)</p>
+
+                             <div class="footer_img">
+                                <a href="https://rs.school/js/"><img src="img/rs_school_js.svg" alt="rs_school"></img></a>
+                            <span>2022</span></div>
+                            
+            </div>
+             
+      </div>
+    
+</body>
+</html>
